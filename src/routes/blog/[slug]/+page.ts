@@ -5,7 +5,7 @@ export const load: PageLoad = ({ params }) => {
 	if (params.slug === 'hello-world') {
 		return {
 			title: 'Hello world!',
-			content: 'Welcome to our blog. Lorem ipsum dolor sit amet... ',
+			content: 'Welcome to our blog. Hello world from SvelteKit!',
 			link: '<a href="/">Home</a>'
 		};
 	}
